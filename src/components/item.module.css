@@ -1,0 +1,38 @@
+.item {
+  width: 20%;
+  flex-grow: 25%;
+  background-color: #ff6688;
+  border-radius: 8px;
+  min-height: 50px;
+  padding: 8px;
+}
+.button {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: teal;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 8px;
+}
+.button:hover {
+  background-color: #228888;
+}
+
+@media screen and (max-width: 780px) {
+  .item {
+    width: 40%;
+    flex-grow: 50%;
+    margin: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .item {
+    width: 90%;
+    flex-grow: 100%;
+    margin: 12px;
+  }
+}

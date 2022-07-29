@@ -1,0 +1,22 @@
+.root {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 8px;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: teal;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 8px;
+}
+.button:hover {
+  background-color: #228888;
+}
